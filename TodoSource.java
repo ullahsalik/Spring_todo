@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.jackrutorial.model.User;
 
 
-@Path("Todos")
+@RestController
 public class TodoSource {
 
 	TodoRepository repo = new TodoRepository();
